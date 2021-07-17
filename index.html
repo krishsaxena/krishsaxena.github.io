@@ -1,9 +1,74 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <div class="row">
+        <div class="col">
+            <div class="header">Hello World!</div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col">
+                <h1>Introduction</h1>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col">
+                <p>My name is Krish Saxena. I am a freshman currently in CHHS. The main interests in my life are sports and computers. I've always been awed at how computers work and how they empower in each of our lives. Throughout my education, I have been learning how computers work and learned what were the most common types of programming languages. When I saw the Python programming language, I fell in love with it and started learning about it in 5th grade. This programming language was the core to many of my projects and helped me make productive machines and programs. Currently, I am learning machine learning and the garantuan amount of equations that help modern day machines to do stuff like autonomous driving, detect diseases, classify writing, and much more! Below are projects that I developed since 6th grade. </p>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-4">
+                    <h2>6th Grade - Picture to 3D Model</h2>
+                </div>
+                <div class="col-4">
+                    <h2>7th Grade - Auto Attendance System using Artifical Intellegence</h2>
+                </div>
+                <div class="col-4">
+                    <h2>8th Grade - Automatic Security Arming System</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <p>3D imagery is the next generation of photography. This project is about using 2D images to make 3D models with dense points, poisson, and texture. A Raspberry Pi with a camera module is used to take 2D images. The camera is triggered from a Laptop controlled by Python program. The images are FTPed (File Transfer Protocol) to the Laptop where they are feature detected using a computer vision algorithm. This makes the dense points by running reconstruction. The MeshLab program makes the poisson and texture by processing the mesh from the 3D dense points model. This is fed into Microsoft Blender which cleans and creates the 3D models in different formats. These formats can be embedded into 3D viewer applications and HTML5 webpages. This is perfect for buisnesses who want to advertise their product on the internet.</p>
+            </div>
+            <div class="col-4">
+                <p>Currently, in our schools, attendance is taken by teachers which can be cumbersome and can be prone to errors. This also can take up valuable time of learning, teaching, and uploading the attendance in the system. The engineering objective of this project is to have a well-working, low-cost Artificial Intelligence-based program that can take the attendance of the desired class with 100% accuracy in real-time and be able to generate a report on students attending the class.  The Raspberry Pi was set up and the AI-based program OpenCV was installed and compiled. Two python scripts were written first to profile people and the second to recognize them for attendance. I experimented with my program with different people by creating their profiles and running the second script for facial recognition. The program was recognizing people with 100% accuracy. The python script compiled a list of the recognized people and generated an organized attendance report. This whole project was cost-effective and efficient enough to be used in classrooms.</p>
+            </div>
+            <div class="col-4">
+                <p>We have so many security devices in our houses, but most of the times when we leave, we forget to arm the devices, creating a security risk. As technology is advancing so are cyber criminals who infiltrate through people's home network.  I have successfully created a Python program where it was able to arm and disarm the security devices and the internet, creating an effective and comprehensive automated security arming system. My project involves 3 modules; triggering, security actions, and notifications. When I leave the house, it automatically detects that I am out of the Bluetooth range and as a result, it shuts down the internet, arms Arlo, starts the motion detection system, and sends me a notification. When I enter back into the house (come back in range), it automatically starts back the internet, disarms Arlo, stops the motion detection system, and sends a welcome message to me. This program can be really effective for individuals who want to automatically increase their home security and who want to automate their IoT devices as they exit and enter their houses. This is also effective for businesses and research labs who want to secure their premises and their data.<br>Button</br></p>
+            </div>
+            
+
+        </div>
+
+        <div class= "row">
+            <div class="col-4">
+                <img src="6th Grade Pictures\modelisshowing.png" width= "100%">
+            </div>
+            <div class="col-4">
+                <img src="7th Grade Pictures\RaspberryPi.png" width= "100%">
+            </div>
+            <div class="col-4">
+                <img src="8th Grade Pictures\MotionDetected.png" width= "100%">
+            </div>
+        </div>
+
+        <div class= "row">
+            <div class="col">
+                <div class="footer">
+                    <p>v0.01</p>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
